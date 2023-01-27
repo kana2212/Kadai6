@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 
 @RestController
 public class HelloWorldController {
-    @GetMapping("/restcurrenttime")
+    @GetMapping("/currenttime")
     public String hello() {
         return """
                 Hello.
